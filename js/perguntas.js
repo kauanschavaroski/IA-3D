@@ -1,103 +1,103 @@
 export const perguntas = [
     {
-        enunciado: "Você descobre uma nova IA que pode responder qualquer dúvida. O que você pensa?",
+        enunciado: "Qual é o anime mais popular de todos os tempos?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Naruto",
                 afirmacao: [
-                    "Você ficou com medo do impacto dessa IA.",
-                    "Pensou sobre os perigos do avanço tecnológico."
+                    "Naruto é um clássico amado, mas não é o mais popular mundialmente.",
+                    "É um dos animes mais influentes, especialmente na cultura ocidental."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é incrível!",
+                texto: "One Piece",
                 afirmacao: [
-                    "Você ficou empolgado com as possibilidades da IA.",
-                    "Imaginou como isso pode mudar o mundo."
+                    "Correto! One Piece detém recordes de venda e popularidade.",
+                    "É uma das séries mais longas e ainda em andamento."
                 ],
                 proxima: 2,
             }
         ]
     },
     {
-        enunciado: "Sua professora pede um trabalho sobre IA. Como você vai proceder?",
+        enunciado: "Qual foi o primeiro mangá a ser publicado?",
         alternativas: [
             {
-                texto: "Uso IA para ajudar nas pesquisas.",
+                texto: "Astro Boy",
                 afirmacao: [
-                    "Você usou IA para encontrar informações de forma mais eficiente.",
-                    "A IA te ajudou a compreender conceitos difíceis."
+                    "Astro Boy é um dos primeiros mangás modernos e popularizou o gênero.",
+                    "Criado por Osamu Tezuka, é considerado o pai do mangá moderno."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Prefiro fazer tudo sem IA.",
+                texto: "Dragon Ball",
                 afirmacao: [
-                    "Você confiou nos seus próprios conhecimentos.",
-                    "Achou que pesquisar por conta própria seria mais seguro."
+                    "Embora seja muito popular, Dragon Ball não foi o primeiro.",
+                    "Foi lançado nos anos 80 e revolucionou o gênero shonen."
+                ],
+                proxima: 3,
+            }
+        ]
+    },
+    {
+        enunciado: "Qual é o tema central de Attack on Titan?",
+        alternativas: [
+            {
+                texto: "Guerra entre humanos e titãs.",
+                afirmacao: [
+                    "Correto! O anime explora a luta pela sobrevivência contra os titãs.",
+                    "Também discute temas como liberdade e humanidade."
+                ],
+                proxima: 4,
+            },
+            {
+                texto: "Viagem no tempo.",
+                afirmacao: [
+                    "Embora haja algumas reviravoltas no tempo, o foco é a guerra com os titãs.",
+                    "O anime explora outros temas complexos, mas não a viagem no tempo diretamente."
                 ],
                 proxima: 4,
             }
         ]
     },
     {
-        enunciado: "Como você vê o impacto da IA no mercado de trabalho?",
+        enunciado: "Qual é o criador de 'My Hero Academia'?",
         alternativas: [
             {
-                texto: "A IA vai criar novas oportunidades.",
+                texto: "Kōhei Horikoshi",
                 afirmacao: [
-                    "Você acredita que a IA pode melhorar a produtividade humana.",
-                    "Está confiante de que a IA abrirá novos caminhos."
+                    "Correto! Ele é o mangaká responsável por My Hero Academia.",
+                    "O mangá se tornou um dos mais populares da nova geração."
                 ],
                 proxima: 5,
             },
             {
-                texto: "A IA vai substituir muitos empregos.",
+                texto: "Eiichiro Oda",
                 afirmacao: [
-                    "Você está preocupado com a substituição de humanos por máquinas.",
-                    "Acredita que as pessoas precisam ser protegidas dessa mudança."
+                    "Eiichiro Oda é o criador de One Piece, não de My Hero Academia.",
+                    "Ambos os mangakás são muito influentes no mundo dos animes e mangás."
                 ],
-                proxima: 6,
+                proxima: 5,
             }
         ]
     },
     {
-        enunciado: "Um grande debate começa sobre ética em IA. Qual seu posicionamento?",
+        enunciado: "Quantos episódios tem 'Death Note'?",
         alternativas: [
             {
-                texto: "A IA precisa de mais regulamentação.",
+                texto: "37",
                 afirmacao: [
-                    "Você acredita que o uso de IA deve ser fortemente regulado.",
-                    "Defende que precisamos estabelecer limites éticos claros."
-                ],
-                proxima: 7,
-            },
-            {
-                texto: "A inovação deve ter liberdade.",
-                afirmacao: [
-                    "Você defende que a IA precisa de liberdade para evoluir.",
-                    "Acredita que regulamentação pode frear a inovação."
-                ],
-                proxima: 8,
-            }
-        ]
-    },
-    {
-        enunciado: "Você precisa criar uma arte para representar o impacto da IA. Como você faz?",
-        alternativas: [
-            {
-                texto: "Uso IA para gerar a arte.",
-                afirmacao: [
-                    "Você cria uma arte digital inovadora com IA.",
-                    "Vê o uso da IA como uma nova forma de expressão artística."
+                    "Correto! Death Note tem um total de 37 episódios.",
+                    "Cada episódio conta a história de Light Yagami e sua busca pelo poder absoluto."
                 ],
             },
             {
-                texto: "Crio a arte manualmente.",
+                texto: "50",
                 afirmacao: [
-                    "Você prefere um processo artístico tradicional.",
-                    "Sente que a arte feita à mão tem mais valor pessoal."
+                    "Death Note é mais curto, com apenas 37 episódios.",
+                    "Ainda assim, a série tem um grande impacto em seus poucos episódios."
                 ],
             }
         ]
